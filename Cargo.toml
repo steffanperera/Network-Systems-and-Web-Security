@@ -1,0 +1,12 @@
+[package]
+name = "network_systems_lab2"
+version = "0.1.0"
+authors = [""]
+edition = "2026"
+
+[[bin]]
+name = "lab02"
+path = "src/lab02.rs"
+
+[dependencies]
+chrono = { version = "0.4", features = ["clock"] }
